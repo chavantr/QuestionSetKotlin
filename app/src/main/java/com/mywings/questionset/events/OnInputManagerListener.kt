@@ -8,6 +8,6 @@ import android.view.View
  */
 
 interface OnInputManagerListener {
-    fun hide(view: View)
-    fun show(view: View)
+    fun hide(view: View?)
+    fun show(view: View?)
 }
