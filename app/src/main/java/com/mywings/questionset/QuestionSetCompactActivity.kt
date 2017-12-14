@@ -65,8 +65,7 @@ abstract class QuestionSetCompactActivity : AppCompatActivity(), OnInformativeLi
     }
 
     override fun getGroup(): ViewGroup {
-        val viewGroup: ViewGroup = this.findViewById(android.R.id.content)
-        return viewGroup
+        return this.findViewById(android.R.id.content)
     }
 
 }
